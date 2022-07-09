@@ -9,9 +9,56 @@
 }
 
 body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
-   
+    background-image: linear-gradient(var(--soft-violet), hsla(240, 73%, 65%, 0.89));
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    margin: 150px 25px 80px 25px;
+    padding-top: 100px;
+}
+
+#lady-online {
+    width:250px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 35px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 0px 20px 0px 20px;
+}
+
+hr {
+    width: 280px;
+    border: 1px solid var(--light-grayish-blue);
+}
+
+.question:hover {
+    cursor: pointer;
+    color: var(--soft-red);
+}
+
+#pink-down-arrow {
+    position: absolute;
+    right: 50px;
 }
 
 .attribution {
