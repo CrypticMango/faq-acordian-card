@@ -29,6 +29,22 @@ main {
     height: 100%;
 }
 
+details>summary {
+    list-style: none;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+
+summary::after {
+    content: url(/images/icon-arrow-down.svg);
+  }
+  details[open] summary:after {
+    transform: scaleY(-1);
+    content: '🔼';
+  }
+
 #lady-online {
     width:250px;
     display: block;
@@ -46,6 +62,7 @@ h1 {
 
 details {
     padding: 10px 20px 10px 20px;
+    
 }
 
 hr {
