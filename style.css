@@ -25,6 +25,8 @@ main {
     border-radius: 20px;
     margin: 150px 25px 80px 25px;
     padding-top: 100px;
+    width: 330px;
+    height: 480px;
 }
 
 #lady-online {
@@ -42,8 +44,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
-    padding: 0px 20px 0px 20px;
+details {
+    padding: 10px 20px 10px 20px;
 }
 
 hr {
