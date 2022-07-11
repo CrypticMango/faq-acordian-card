@@ -63,6 +63,10 @@ hr {
     right: 50px;
 }
 
+.bottom-line {
+   margin-bottom: 50px;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
