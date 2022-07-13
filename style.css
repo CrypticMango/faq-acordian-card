@@ -27,13 +27,14 @@ main {
     padding-top: 100px;
     width: 330px;
     height: 100%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.438);
 }
 
 details>summary {
     list-style: none;
   }
   
-  summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none
   }
 
@@ -42,20 +43,10 @@ summary::after {
     position: absolute;
     right: 50px;
   }
-  details[open] summary:after {
+
+details[open] summary::after {
     content: '🔼';
   }
-
-  
-
-#lady-online {
-    width:250px;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: 35px;
-
-}
 
 h1 {
     text-align: center;
@@ -73,14 +64,21 @@ hr {
     border: 1px solid var(--light-grayish-blue);
 }
 
+#lady-online {
+    width:250px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 35px;
+}
+
 .question:hover {
     cursor: pointer;
     color: var(--soft-red);
 }
 
-#pink-down-arrow {
-    position: absolute;
-    right: 50px;
+.answer {
+    padding-right: 50px;
 }
 
 .bottom-line {
