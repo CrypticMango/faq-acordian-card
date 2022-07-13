@@ -39,11 +39,14 @@ details>summary {
 
 summary::after {
     content: url(/images/icon-arrow-down.svg);
+    position: absolute;
+    right: 50px;
   }
   details[open] summary:after {
-    transform: scaleY(-1);
     content: '🔼';
   }
+
+  
 
 #lady-online {
     width:250px;
