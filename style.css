@@ -123,13 +123,17 @@ hr {
         right: 350px;
       }
 
+      hr {
+        width: 335px;
+      }
+
     #lady-online {
         position: relative;
         left: -80px;
         top: -10px;
         align-self: center;
         width: 450px;
-        padding-right: 60px;
+        padding-right: 40px;
     }
 
 }
