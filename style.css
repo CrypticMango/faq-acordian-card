@@ -32,7 +32,7 @@ main {
 
 details>summary {
     list-style: none;
-    font-weight: bold;
+    
   }
   
 summary::-webkit-details-marker {
@@ -46,7 +46,17 @@ summary::after {
   }
 
 details[open] summary::after {
-    content: '🔼';
+    content: url(/images/icon-arrow-down.svg);
+    transform: rotate(180deg);
+  }
+
+  details[open] summary {
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+  }
+
+  details[open] summary:hover {
+        color: var(--very-dark-desaturated-blue);
   }
 
 h1 {
