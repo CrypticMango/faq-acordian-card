@@ -75,13 +75,17 @@ hr {
     border: 1px solid var(--light-grayish-blue);
 }
 
-#lady-online {
+#lady-online-mobile {
     width:250px;
     display: block;
     margin: 0 auto;
     position: absolute;
     top: 35px;
     right: 60px;
+}
+
+#lady-online-desktop {
+    display: none;
 }
 
 .question:hover {
@@ -146,15 +150,23 @@ hr {
             left: 250px;
             border-radius: 20px;
             transform: rotate(50deg);
+            display: none;
       }
 
-    #lady-online {
+    #lady-online-desktop {
         position: relative;
         left: -80px;
         top: -10px;
         align-self: center;
         width: 450px;
         padding-right: 40px;
+        display: block;
+        z-index: 0;
+       
+    }
+
+    #lady-online-mobile {
+        display:none;
     }
 
 }
