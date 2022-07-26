@@ -92,6 +92,10 @@ hr {
     display: none;
 }
 
+#orange-box {
+    display: none;
+}
+
 .question:hover {
     cursor: pointer;
     color: var(--soft-red);
@@ -149,18 +153,6 @@ hr {
         width: 335px;
       }
 
-      #square-desktop {
-            width: 400px;
-            height: 400px;
-            background: hsla(240, 6%, 50%, 0.212);
-            position: absolute;
-            top: 250px;
-            left: 250px;
-            border-radius: 20px;
-            transform: rotate(50deg);
-            display: none;
-      }
-
     #lady-online-desktop {
         position: relative;
         left: -80px;
@@ -170,11 +162,17 @@ hr {
         padding-right: 40px;
         display: block;
         z-index: 0;
-       
     }
 
     #lady-online-mobile {
         display:none;
+    }
+
+    #orange-box {
+        display: block;
+        position: absolute;
+        top: 370px;
+        left: 175px;
     }
 
 }
