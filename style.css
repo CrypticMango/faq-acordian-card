@@ -36,7 +36,6 @@ main {
 
 details>summary {
     list-style: none;
-    
   }
   
 summary::-webkit-details-marker {
@@ -132,6 +131,7 @@ hr {
         background-repeat: no-repeat;
         background-size: 90%;
         background-position: -485% 70%;
+        margin: 0 auto;
     }
 
     h1 {
@@ -161,7 +161,7 @@ hr {
         width: 450px;
         padding-right: 40px;
         display: block;
-        z-index: 0;
+        z-index: -0;
     }
 
     #lady-online-mobile {
@@ -171,8 +171,12 @@ hr {
     #orange-box {
         display: block;
         position: absolute;
-        top: 370px;
+        top: 315px;
         left: 175px;
+    }
+
+    .attribution {
+        margin-top: 40px;
     }
 
 }
