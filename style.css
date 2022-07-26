@@ -124,6 +124,10 @@ hr {
         flex-direction: row;
         align-items: center;
         padding-top: 0px;
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: -485% 70%;
     }
 
     h1 {
